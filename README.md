@@ -40,6 +40,35 @@ log_messages('DEBUG')
 log_messages('WARNING')
 ```
 
+Running this code from ImageJ will result in the following messages being
+printed to the console or the *Log* window, depending on how you launch ImageJ:
+
+```
+[Fri Jan  5 12:25:15 CET 2018] [ERROR] +++ new round of messages (level WARNING) +++
+[Fri Jan  5 12:25:15 CET 2018] [WARNING] warn log message
+[Fri Jan  5 12:25:15 CET 2018] [ERROR] error log message
+[Fri Jan  5 12:25:15 CET 2018] [ERROR] critical log message
+[Fri Jan  5 12:25:15 CET 2018] [ERROR] --- finished round of messages (level WARNING) ---
+[Fri Jan  5 12:25:15 CET 2018] [ERROR] +++ new round of messages (level INFO) +++
+[Fri Jan  5 12:25:15 CET 2018] [INFO] info log message
+[Fri Jan  5 12:25:15 CET 2018] [WARNING] warn log message
+[Fri Jan  5 12:25:15 CET 2018] [ERROR] error log message
+[Fri Jan  5 12:25:15 CET 2018] [ERROR] critical log message
+[Fri Jan  5 12:25:15 CET 2018] [ERROR] --- finished round of messages (level INFO) ---
+[Fri Jan  5 12:25:15 CET 2018] [ERROR] +++ new round of messages (level DEBUG) +++
+[Fri Jan  5 12:25:15 CET 2018] [DEBUG] debug log message
+[Fri Jan  5 12:25:15 CET 2018] [INFO] info log message
+[Fri Jan  5 12:25:15 CET 2018] [WARNING] warn log message
+[Fri Jan  5 12:25:15 CET 2018] [ERROR] error log message
+[Fri Jan  5 12:25:15 CET 2018] [ERROR] critical log message
+[Fri Jan  5 12:25:15 CET 2018] [ERROR] --- finished round of messages (level DEBUG) ---
+[Fri Jan  5 12:25:15 CET 2018] [ERROR] +++ new round of messages (level WARNING) +++
+[Fri Jan  5 12:25:15 CET 2018] [WARNING] warn log message
+[Fri Jan  5 12:25:15 CET 2018] [ERROR] error log message
+[Fri Jan  5 12:25:15 CET 2018] [ERROR] critical log message
+[Fri Jan  5 12:25:15 CET 2018] [ERROR] --- finished round of messages (level WARNING) ---
+```
+
 
 [imcf]: https://www.biozentrum.unibas.ch/imcf
 [imagej]: https://imagej.net
