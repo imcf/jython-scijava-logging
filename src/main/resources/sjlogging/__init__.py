@@ -48,4 +48,7 @@ log_messages('WARNING')
 [gh_sj_logservice]: https://github.com/scijava/scijava-common/tree/master/src/main/java/org/scijava/log
 """
 
+from .logger import setup_scijava_logger as setup_logger
+from .setter import set_loglevel, set_loglevel_scijava_style, set_verbosity
+
 __version__ = '${project.version}'
