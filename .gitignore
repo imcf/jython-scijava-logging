@@ -1,5 +1,6 @@
-# VS Code workspace files
+# VS Code stuff
 *.code-workspace
+.vscode/
 
 # maven / release generated files
 target/
