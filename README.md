@@ -1,5 +1,7 @@
 # SciJava log handler for Python :snake::coffee::bookmark_tabs:
 
+[![Travis CI](https://travis-ci.com/imcf/jython-scijava-logging.svg?branch=master)](https://travis-ci.com/imcf/jython-scijava-logging)
+
 A very thin Python package (mavenized for [ImageJ2][imagej]) to use the
 [SciJava][gh_scijava] [LogService][gh_sj_logservice] as a handler for
 [Python's logging facility][py_logging]. See the wiki page about
