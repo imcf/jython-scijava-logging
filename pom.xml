@@ -11,7 +11,7 @@
 
 	<groupId>ch.unibas.biozentrum.imcf</groupId>
 	<artifactId>jython-scijava-logging</artifactId>
-	<version>0.5.1-SNAPSHOT</version>
+	<version>0.5.1</version>
 
 	<name>Jython-SciJava Logging</name>
 	<description>
@@ -90,7 +90,7 @@
 	<scm>
 		<connection>scm:git:git://github.com/imcf/jython-scijava-logging</connection>
 		<developerConnection>scm:git:git@github.com:imcf/jython-scijava-logging</developerConnection>
-		<tag>HEAD</tag>
+		<tag>jython-scijava-logging-0.5.1</tag>
 		<url>https://github.com/imcf/jython-scijava-logging</url>
 	</scm>
 	<issueManagement>
