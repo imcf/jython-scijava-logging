@@ -14,7 +14,9 @@ cd "$BASE_DIR"
 git clone https://github.com/scijava/scijava-scripts
 cd -
 
-"$BASE_DIR/scijava-scripts/release-version.sh"
+RELEASE_SCRIPT="$BASE_DIR/scijava-scripts/release-version.sh"
+
+$RELEASE_SCRIPT --skip-push --skip-gpg --skip-license-update
 ```
 
 Build & Deploy using Visual Studio Code
