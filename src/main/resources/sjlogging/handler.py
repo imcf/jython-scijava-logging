@@ -39,25 +39,27 @@ class SciJavaLogHandler(logging.StreamHandler):
         Python logging filters etc., so once the emit() method is called we *do*
         know this message should actually be put out. Hence we first remember
         the current SciJava log level, adjust it according to the level of the
-        given record, then we call the corresponding LogService method and
+        given record, then we call the corresponding LogService `log()` method and
         finally we re-set the SciJava log level to the value it had when this
         method was called.
         """
         # remember the current LogService level:
         sjlevel = self.sjlog.getLevel()
 
+        formatted = self.format(record)
+
         if record.levelname == "DEBUG":
             self.sjlog.setLevel(4)
-            self.sjlog.debug(self.format(record))
+            self.sjlog.log(4, formatted)
         elif record.levelname == "INFO":
             self.sjlog.setLevel(3)
-            self.sjlog.info(self.format(record))
+            self.sjlog.log(3, formatted)
         elif record.levelname == "WARNING":
             self.sjlog.setLevel(2)
-            self.sjlog.warn(self.format(record))
+            self.sjlog.log(2, formatted)
         else:  # everything else, including "ERROR" and "CRITICAL":
             self.sjlog.setLevel(1)
-            self.sjlog.error(self.format(record))
+            self.sjlog.log(1, formatted)
 
         # reset the LogService level to its previous value:
         self.sjlog.setLevel(sjlevel)
