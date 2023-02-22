@@ -5,6 +5,7 @@
 # maven / release generated files
 target/
 pom.xml.releaseBackup
+dist/
 
 # bytecode created when importing directly in Jython:
 *py.class
