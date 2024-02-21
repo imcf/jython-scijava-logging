@@ -1,4 +1,4 @@
-# SciJava log handler for Python :snake::coffee::bookmark_tabs:
+# SciJava log handler for Python 🐍☕📑
 
 [![DOI](https://zenodo.org/badge/154402009.svg)][doi]
 
