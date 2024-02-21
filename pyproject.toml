@@ -6,10 +6,10 @@ authors = ["Niko Ehrenfeuchter <nikolaus.ehrenfeuchter@unibas.ch>"]
 description = "Jython package for using SciJava's LogService for logging."
 name = "sjlogging"
 readme = "README.md"
-version = "0.5.2"
+version = '${project.version}'
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = ">=2.7"
 
 [build-system]
 build-backend = "poetry.core.masonry.api"
