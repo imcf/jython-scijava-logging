@@ -1,6 +1,5 @@
 # SciJava log handler for Python :snake::coffee::bookmark_tabs:
 
-[![Travis CI](https://travis-ci.com/imcf/jython-scijava-logging.svg?branch=master)](https://travis-ci.com/imcf/jython-scijava-logging)
 [![DOI](https://zenodo.org/badge/154402009.svg)](https://zenodo.org/badge/latestdoi/154402009)
 
 A very thin Python package (mavenized for [ImageJ2][imagej]) to use the
