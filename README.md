@@ -1,6 +1,6 @@
 # SciJava log handler for Python :snake::coffee::bookmark_tabs:
 
-[![DOI](https://zenodo.org/badge/154402009.svg)](https://zenodo.org/badge/latestdoi/154402009)
+[![DOI](https://zenodo.org/badge/154402009.svg)][doi]
 
 A very thin Python package (mavenized for [ImageJ2][imagej]) to use the
 [SciJava][gh_scijava] [LogService][gh_sj_logservice] as a handler for
@@ -45,7 +45,6 @@ printed to the console or the *Log* window, depending on how you launch ImageJ:
 [Fri Jan  5 12:25:15 CET 2018] [ERROR] --- finished round of messages (level WARNING) ---
 ```
 
-
 [imcf]: https://www.biozentrum.unibas.ch/imcf
 [imagej]: https://imagej.net
 [ij_logging]: https://imagej.net/Logging
@@ -53,3 +52,4 @@ printed to the console or the *Log* window, depending on how you launch ImageJ:
 [py_logging]: https://docs.python.org/2/library/logging.html
 [gh_scijava]: https://github.com/scijava
 [gh_sj_logservice]: https://github.com/scijava/scijava-common/tree/master/src/main/java/org/scijava/log
+[doi]: https://zenodo.org/badge/latestdoi/154402009
