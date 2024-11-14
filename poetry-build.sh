@@ -53,8 +53,8 @@ echo "Using package version: [$PACKAGE_VERSION]"
 sed -i "s/\${project.version}/${PACKAGE_VERSION}/" pyproject.toml
 sed -i "s/\${project.version}/${PACKAGE_VERSION}/" sjlogging/__init__.py
 
-### let poetry build wheel and tar.gz:
-poetry build -vv
+### now call poetry with the given parameters:
+poetry "$@"
 
 ### clean up the moved source tree and restore the previous state:
 rm -rf sjlogging/
