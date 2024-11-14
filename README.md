@@ -10,6 +10,12 @@ A very thin Python package (mavenized for [ImageJ2][imagej]) to use the
 Developed and provided by the [Imaging Core Facility (IMCF)][imcf] of the
 Biozentrum, University of Basel, Switzerland.
 
+## 🚫 WARNING 🚫
+
+The PyPI packages of this project are exclusively useful for automatic testing
+of e.g. the [`imcflibs`][imcflibs] package! They have no real use-case in the
+standard CPython world 🐍🌍!
+
 ## Example usage
 
 The code in [extra/scripts/example.py](extra/scripts/example.py) demonstrates
@@ -46,6 +52,7 @@ printed to the console or the *Log* window, depending on how you launch ImageJ:
 ```
 
 [imcf]: https://www.biozentrum.unibas.ch/imcf
+[imcflibs]: https://github.com/imcf/python-imcflibs/
 [imagej]: https://imagej.net
 [ij_logging]: https://imagej.net/Logging
 [ij_script_params]: http://imagej.net/Script_Parameters
